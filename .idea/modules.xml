@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DSA Practice/DSA Practice.iml" filepath="$PROJECT_DIR$/DSA Practice/DSA Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lenovo.iml" filepath="$PROJECT_DIR$/lenovo.iml" />
+    </modules>
+  </component>
+</project>
