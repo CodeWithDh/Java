@@ -63,6 +63,9 @@ Welcome to my **Data Structures & Algorithms (DSA)** journey using **Java**. Thi
   - Bubble Sort: Concept, dry-run, Java code  
   - Optimization using swap flag  
   - Printing intermediate passes
+  - Shared on X(Twitter)
+<img width="723" height="280" alt="image" src="https://github.com/user-attachments/assets/1255eaf1-1557-4dfe-81fb-42bf43c2e869" />
+
 
 ---
 
