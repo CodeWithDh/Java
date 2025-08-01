@@ -81,4 +81,17 @@ public class Patterns {
         }
     }
 
+    public static long fibonacci(int n, long[] memo){
+           if(n<=1){
+//               System.out.print(memo[n]+" ");
+               return n;
+           }
+           if(memo[n]!=0){
+               return memo[n];
+           }
+           memo[n]=fibonacci(n-1,memo)+fibonacci(n-2,memo);
+        System.out.print(memo[n]+" ");
+           return memo[n];
+    }
+
 }

@@ -6,8 +6,10 @@ public class Main {
 //        Patterns.newPattern();
 //        Patterns.trianglePattern();
 //        Patterns.numberPattern();
-        Patterns.oddEvenNumberPattern();
+//        Patterns.oddEvenNumberPattern();
 
+        long[] memo=new long[6+1];
+        System.out.println(Patterns.fibonacci(6,memo));
 
     }
 }
