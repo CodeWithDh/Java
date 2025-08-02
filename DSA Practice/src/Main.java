@@ -8,8 +8,9 @@ public class Main {
 //        Patterns.numberPattern();
 //        Patterns.oddEvenNumberPattern();
 
-        long[] memo=new long[6+1];
-        System.out.println(Patterns.fibonacci(6,memo));
+        long[] memo=new long[15+1];
+        Patterns.fibonacci(15,memo);
+        Patterns.printArr(memo);
 
     }
 }
