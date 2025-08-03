@@ -12,6 +12,16 @@ public class Main {
 //        Patterns.fibonacci(15,memo);
 //        Patterns.printArr(memo);
 //        System.out.println(Patterns.factorial(5));
-
+//        int n=81;
+//        System.out.println("Is "+n+" is a Prime number: "+Patterns.checkPrime(n));
+////        O(n)
+//        System.out.println(DSA_Problems.recusiveFactorial(3));
+//        int arr[]={-5,2,10,4,6};
+//        System.out.println(DSA_Problems.LinearSearch(arr,5,6));
+//        int[] arr={-5,2,4,6,10};
+//        System.out.println(DSA_Problems.BinarySearch(arr,5,2));
+//        recursive binary Search
+        int[] arr={-5,2,4,6,10};
+        System.out.println(DSA_Problems.BinarySearch(arr,5,6));
     }
 }

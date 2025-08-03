@@ -81,42 +81,6 @@ public class Patterns {
         }
     }
 
-    public static long fibonacci(int n, long[] memo){
-           if(n<=1){
-//               System.out.print(memo[n]+" ");
-               memo[n]=n;
-               return n;
-           } else if (memo[n]!=0) {
-               return memo[n];
-           }
-           memo[n]=fibonacci(n-1,memo)+fibonacci(n-2,memo);
-           return memo[n];
-    }
-    public static void printArr(long[]memo){
-        for (int i = 0; i <memo.length ; i++) {
-            System.out.print(memo[i]+" ");
-        }
-    }
-//    fibonacci in NodeJS
-//    function fibonacci(n) {
-//        let fib = [0, 1];
-//        for (let i = 2; i < n; i++) {
-//            fib[i] = fib[i - 1] + fib[i - 2];
-//        }
-//        return fib;
-//    }
-//
-//console.log(fibonacci(7));
-//console.log(fibonacci(5));
 
-    public static int factorial(int n){
-        int fac=1;
-        if(n>1){
-            for (int i = 2; i <=n ; i++) {
-                fac *= i;
-            }
-        }
-           return fac;
-    }
 
 }
