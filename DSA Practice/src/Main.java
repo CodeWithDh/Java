@@ -21,7 +21,8 @@ public class Main {
 //        int[] arr={-5,2,4,6,10};
 //        System.out.println(DSA_Problems.BinarySearch(arr,5,2));
 //        recursive binary Search
-        int[] arr={-5,2,4,6,10};
-        System.out.println(DSA_Problems.BinarySearch(arr,5,6));
+//        int[] arr={-5,2,4,6,10};
+//        System.out.println(DSA_Problems.BinarySearch(arr,5,6));
+        System.out.println("Hello I am doing sorting now");
     }
 }
