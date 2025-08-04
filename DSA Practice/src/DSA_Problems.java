@@ -125,4 +125,16 @@ public class DSA_Problems {
         }while(swapped);
         return arr;
     }
+    public static int[] insertionSort(int[]arr){
+        for (int i = 1; i <arr.length; i++) {
+            int nti= arr[i];
+            int se=i-1;
+            while(se>=0 && arr[se]>nti){
+                arr[se+1]=arr[se];
+                se--;
+            }
+            arr[se+1]=nti;
+        }
+        return arr;
+    }
 }

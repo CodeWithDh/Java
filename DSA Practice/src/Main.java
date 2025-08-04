@@ -31,6 +31,14 @@ public class Main {
 //            System.out.print(arr[i]+" ");
 //            i++;
 //        }
+        int[]arr={-6,20,8,-2,4};
+        arr=DSA_Problems.insertionSort(arr);
+        int i=0;
+        while(i<arr.length){
+            System.out.print(arr[i]+" ");
+            i++;
+        }
+
 
     }
 }
