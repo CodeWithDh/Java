@@ -137,4 +137,35 @@ public class DSA_Problems {
         }
         return arr;
     }
+
+    public static int[] newBubbleSort(int[]arr){
+
+        boolean swapped;
+        do{
+            swapped=false;
+            for (int i = 0; i <arr.length-1 ; i++) {
+                if(arr[i]>arr[i+1]){
+                    int temp=arr[i];
+                    arr[i]=arr[i+1];
+                    arr[i+1]=temp;
+                    swapped=true;
+                }
+            }
+        }while(swapped);
+        return arr;
+    }
+    public static int[] newInsertionSort(int[]arr){
+
+        for (int i = 1; i <arr.length ; i++) {
+            int nti=arr[i];
+            int se=i-1;
+            while(se>=0 && arr[se]>nti){
+                arr[se+1]=arr[se];
+                se--;
+            }
+            arr[se+1]=nti;
+        }
+
+        return arr;
+    }
 }

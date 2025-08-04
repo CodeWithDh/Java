@@ -24,15 +24,17 @@ public class Main {
 //        int[] arr={-5,2,4,6,10};
 //        System.out.println(DSA_Problems.BinarySearch(arr,5,6));
 //        Bubble Sort Completed
-//        int[]arr={10,5,4,6,2,84,-1};
+        int[]arr={10,5,4,6,2,84,-1};
 //        arr=DSA_Problems.bubbleSort(arr);
 //        int i=0;
 //        while(i<arr.length){
 //            System.out.print(arr[i]+" ");
 //            i++;
 //        }
-        int[]arr={-6,20,8,-2,4};
-        arr=DSA_Problems.insertionSort(arr);
+//        int[]arr={-6,20,8,-2,4};
+//        arr=DSA_Problems.insertionSort(arr);
+//        arr=DSA_Problems.newBubbleSort(arr);
+        arr=DSA_Problems.newInsertionSort(arr);
         int i=0;
         while(i<arr.length){
             System.out.print(arr[i]+" ");
