@@ -40,7 +40,44 @@ public class Main {
             System.out.print(arr[i]+" ");
             i++;
         }
+    }
+
+    public static int[] quickSort(int[]arr){
+        if(arr.length<2){
+            return arr;
+        }
+        int pivot=arr[arr.length-1];
+        int[]left={};
+        int[]right={};
+        for(int i=0;i<arr.length-1){
+            if(arr[i]<pivot){
+                left.// push command is not available in Java so i did this prgram in nodeJs
+//Nodejs code :-
+//                        function quickSort(arr) {
+//                    if (arr.length < 2) {
+//                        return arr;
+//                    }
+//                    let pivot = arr[arr.length - 1];
+//                    let left = [];
+//                    let right = [];
+//
+//                    for (let i = 0; i < arr.length - 1; i++) {
+//                        if (arr[i] < pivot) {
+//                            left.push(arr[i]);
+//                        } else {
+//                            right.push(arr[i]);
+//                        }
+//                    }
+//
+//                    return [...quickSort(left), pivot, ...quickSort(right)];
+//                }
+//
+//                let arr = [3, 1, 4, 1, 5, 9, 2, -6, 5, -3, 5];
+//                console.log(quickSort(arr));
 
 
+
+            }
+        }
     }
 }
