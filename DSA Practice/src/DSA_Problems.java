@@ -168,4 +168,48 @@ public class DSA_Problems {
 
         return arr;
     }
+
+    // push command is not available in Java so i did this prgram in nodeJs
+//Nodejs code :-
+//                        function quickSort(arr) {
+//                    if (arr.length < 2) {
+//                        return arr;
+//                    }
+//                    let pivot = arr[arr.length - 1];
+//                    let left = [];
+//                    let right = [];
+//
+//                    for (let i = 0; i < arr.length - 1; i++) {
+//                        if (arr[i] < pivot) {
+//                            left.push(arr[i]);
+//                        } else {
+//                            right.push(arr[i]);
+//                        }
+//                    }
+//
+//                    return [...quickSort(left), pivot, ...quickSort(right)];
+//                }
+//
+//                let arr = [3, 1, 4, 1, 5, 9, 2, -6, 5, -3, 5];
+//                console.log(quickSort(arr));
+
+//                NodeJS Cartesian Product Theory =done it by my own without watching solution
+//                function cartesianProduct(a, b) {
+//                    let result = [];
+//                    for (let i = 0; i < a.length; i++) {
+//                        let temp = [];
+//                        for (let j = 0; j < b.length; j++) {
+//                            temp.push([a[i], b[j]]);
+//                        }
+//                        result.push(...temp);
+//                    }
+//                    return result;
+//                }
+//
+//                let a = [1, 2];
+//                let b = [3, 4, 5];
+//                console.log(cartesianProduct(a, b));
+
+//}
+//        }
 }
